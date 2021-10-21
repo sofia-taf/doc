@@ -1,6 +1,7 @@
 # List of sraplus dependencies
 
 sraplus 3.7.2 (released 2019-01-09)
+
 https://github.com/DanOvando/sraplus
 
 ## CRAN packages
