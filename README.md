@@ -15,4 +15,4 @@
 [sraplus package](https://github.com/DanOvando/sraplus) and
 [dependencies](sraplus_dependencies.md)
 
-[TSAF database description](Sofia_Tsaf_Database.docx)
+[TSAF database description](Sofia_Tsaf_Database.pdf)
