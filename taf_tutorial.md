@@ -48,6 +48,17 @@ called `data`. The results from the analysis are found in the `model` folder
 (sraplus results object), `output` folder (detailed tables) and `report` folder
 (plots and summary tables).
 
+## Back to basics
+
+For a minimal example of TAF, a simple linear regression (LM) demo is available
+at:
+
+https://github.com/PacificCommunity/ofp-sam-taf-demo
+
+This analysis has no software dependencies and can be useful for studying the
+mechanics and features of TAF analyses, without the additional complexity of the
+`sraplus` model.
+
 ## Learn more
 
 The [package help page](https://rdrr.io/cran/TAF/man/TAF-package.html) shows a
