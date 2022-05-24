@@ -61,6 +61,8 @@ mechanics and features of TAF analyses, without the additional complexity of the
 
 ## Learn more
 
+https://github.com/ices-taf/doc has links to TAF documentation.
+
 The [package help page](https://rdrr.io/cran/TAF/man/TAF-package.html) shows a
 complete list of R functions in the TAF package. At the bottom of the package
 help page there is also a list of references:
