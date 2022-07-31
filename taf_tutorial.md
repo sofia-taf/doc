@@ -79,4 +79,4 @@ In an R session, the package help page can be brought up with the command
 
 ## TAF discussion points
 
-See [README_taf.md](README_taf.md).
+See [taf_discussion.md](taf_discussion.md).
