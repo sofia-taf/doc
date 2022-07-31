@@ -6,7 +6,7 @@ Install the TAF package from CRAN.
 
 Then clone/download a SOFIA analysis, for example:
 
-https://github.com/sofia-tsaf/2022Area37Demo
+https://github.com/sofia-taf/2022Area37Demo
 
 Open R in the `2022Area37Demo` directory and run:
 
