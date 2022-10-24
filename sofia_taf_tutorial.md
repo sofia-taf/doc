@@ -1,4 +1,4 @@
-# SOTIA-TAF Tutorial
+# SOFIA-TAF Tutorial
 
 ## How to run
 
