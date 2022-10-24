@@ -6,7 +6,7 @@
 
 * [Area37 demo](https://github.com/sofia-taf/2022Area37Demo)
 
-* [TAF tutorial](taf_tutorial.md)
+* [SOFIA-TAF tutorial](sofia_taf_tutorial.md)
 
 ## Technical level
 
