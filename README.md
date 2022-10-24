@@ -4,7 +4,7 @@
 
 * [SOFIA-TAF design](https://arni-magnusson.github.io/pdf/2021-sofia-taf.pdf)
 
-* [Area37 demo](https://github.com/sofia-taf/2022Area37Demo)
+* [Area 37 demo](https://github.com/sofia-taf/2022Area37Demo)
 
 * [SOFIA-TAF tutorial](sofia_taf_tutorial.md)
 
