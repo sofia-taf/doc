@@ -1,8 +1,19 @@
-# TAF Tutorial for SOFIA Analyses
+# SOTIA-TAF Tutorial
 
 ## How to run
 
-Install the TAF package from CRAN.
+First install the main packages (sraplus, TAF, SOFIA):
+
+```
+library(remotes)
+install_github("DanOvando/sraplus")
+install.packages("TAF")
+install_github("sofia-taf/SOFIA")
+```
+
+The [sraplus](https://github.com/DanOvando/sraplus) package has many underlying
+package [dependencies](README_dependencies.md) that should install
+automatically.
 
 Then clone/download a SOFIA analysis, for example:
 
@@ -24,20 +35,6 @@ data.R
 model.R
 output.R
 report.R
-```
-
-An alternative to `sourceAll` is the `makeAll` function, which omits TAF scripts
-that have already been run.
-
-## Dependencies
-
-This analysis uses the [sraplus](https://github.com/DanOvando/sraplus) package,
-which has many underlying package [dependencies](README_dependencies.md). These are all
-installed automatically with one command:
-
-```
-library(remotes)
-install_github("DanOvando/sraplus")
 ```
 
 ## Explore results
