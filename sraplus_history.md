@@ -10,12 +10,16 @@ on better data. [Fish and Fish.
 
 ### Version
 
-Version    | Description | Commit     | SHA     | Tag | Release | Files
----------- | ----------- | ---------- | ------- | --- | ------- | --------------------------------------------
-0.0.0.9000 | 2019-01-09  | 2019-01-15 | 8664634 | -   | -       | RcppExports.R, format-driors.R, utils-pipe.R
+List of all commits that have changed the DESCRIPTION file:
+
+Version    | Description | Committed  | SHA     | Tag | Release | Rdirectory
+---------- | ----------- | ---------- | ------- | --- | ------- | -------------------------------------------------------------
+0.0.0.9000 | 2019-01-09  | 2019-01-15 | 8664634 |     |         | (4) RcppExports.R, format-driors.R, sysdata.rda, utils-pipe.R
+           |             |            | 8a1a25d |     |         | (5) cod.R
 
 ### Dependencies
 
-Version    | Description | Commit     | SHA     | Imports                                              | AlsoLinkingTo
----------- | ----------- | ---------- | ------- | ---------------------------------------------------- | -------------
-0.0.0.9000 | 2019-01-09  | 2019-01-15 | 8664634 | dplyr, FishLife, magrittr, purrr, Rcpp, stringr, TMB | RcppArmadillo
+Version    | Description | Committed  | SHA     | Imports                                                         | AlsoLinkingTo
+---------- | ----------- | ---------- | ------- | --------------------------------------------------------------- | -----------------
+0.0.0.9000 | 2019-01-09  | 2019-01-15 | 8664634 | (7) dplyr, FishLife, magrittr, purrr, Rcpp, stringr, TMB        | (1) RcppArmadillo
+"          | "           | "          | 8a1a25d | (8) dplyr, FishLife, magrittr, purrr, Rcpp, stringr, tidyR, TMB | (1) RcppArmadillo
