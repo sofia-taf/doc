@@ -10,16 +10,20 @@ on better data. [Fish and Fish.
 
 ### Dependencies
 
-SHA     | Committed  | Description | Version    | Imports                                                  | AlsoLinkingTo
-------- | ---------- | ----------- | ---------- | -------------------------------------------------------- | -----------------
-8664634 | 2019-01-15 | 2019-01-09  | 0.0.0.9000 | (7) dplyr, FishLife, magrittr, purrr, Rcpp, stringr, TMB | (1) RcppArmadillo
-8a1a25d | "          | "           | "          | (8) TMB                                                  | "
-a9a7112 | "          | "           | "          | (9) TMBhelper                                            | "
-98e7053 | "          | "           | 1.0.0.9000 | "                                                        | "
-da85415 | "          | "           | "          | (10) tmbstan                                             | "
-9f85ce1 | 2019-01-16 | "           | "          | (14) ggplot2, patchwork, ThorsonUtilities, tidybayes     | "
-
-
+SHA     | Committed  | Description | Version    | Imports and LinkingTo
+------- | ---------- | ----------- | ---------- | -----------------------------------------------------------------------
+8664634 | 2019-01-15 | 2019-01-09  | 0.0.0.9000 | (8) dplyr, FishLife, magrittr, purrr, Rcpp, RcppArmadillo, stringr, TMB
+8a1a25d | "          | "           | "          | (9) tidyR
+a9a7112 | "          | "           | "          | (10) TMBhelper
+98e7053 | "          | "           | 1.0.0.9000 | "
+da85415 | "          | "           | "          | (11) tmbstan
+9f85ce1 | 2019-01-16 | "           | "          | (15) ggplot2, patchwork, ThorsonUtilities, tidybayes
+10a9a13 | 2019-01-17 | "           | "          | (17) rstan, rstanarm
+2975e5c | "          | "           | "          | (16) -RcppArmadillo
+2eb9a48 | "          | "           | 1.1.0.9000 | "
+3dd2920 | "          | "           | 1.2.0.9000 | "
+5baf155 | "          | "           | 1.2.1.9000 | "
+22a7933 | 2019-01-18 | "           | 1.2.2.9000 | "
 
 ### Source
 
@@ -33,3 +37,9 @@ a9a7112 | "          | "           | "          |     |         | (7) get_tmb_mo
 98e7053 | "          | "           | 1.0.0.9000 |     |         | "
 da85415 | "          | "           | "          |     |         | (8) sraplus-package
 9f85ce1 | 2019-01-16 | "           | "          |     |         | (12) get-posterior, plot-driors, plot-sraplus, theme-sraplus
+10a9a13 | 2019-01-17 | "           | "          |     |         | "
+2975e5c | "          | "           | "          |     |         | "
+2eb9a48 | "          | "           | 1.1.0.9000 |     |         | "
+3dd2920 | "          | "           | 1.2.0.9000 |     |         | "
+5baf155 | "          | "           | 1.2.1.9000 |     |         | "
+22a7933 | 2019-01-18 | "           | 1.2.2.9000 |     |         | "
