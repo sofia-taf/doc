@@ -15,7 +15,7 @@ List of all commits that have changed the DESCRIPTION file:
 Version    | Description | Committed  | SHA     | Tag | Release | Rdirectory
 ---------- | ----------- | ---------- | ------- | --- | ------- | -------------------------------------------------------------
 0.0.0.9000 | 2019-01-09  | 2019-01-15 | 8664634 |     |         | (4) RcppExports.R, format-driors.R, sysdata.rda, utils-pipe.R
-           |             |            | 8a1a25d |     |         | (5) cod.R
+"          | "           | "          | 8a1a25d | -   | -       | (5) cod.R
 
 ### Dependencies
 
