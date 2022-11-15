@@ -1,7 +1,7 @@
-## Utility function to browse sraplus version history,
-## in terms of dependencies and files in the R directory
+## Utility function to browse historical changes in sraplus,
+## in terms of package dependencies and files in the R directory
 
-sra <- function(sha, list=FALSE)
+changes <- function(sha, list=FALSE)
 {
   ## Switch repository to SHA commit
   cmd <- paste("git reset --hard", sha)
@@ -48,4 +48,4 @@ sra <- function(sha, list=FALSE)
 ## tab <- tab[16:77]
 ## tab <- substring(tab, 1, 7)
 
-## x <- sapply(tab, sra)
+## x <- sapply(tab, changes)
