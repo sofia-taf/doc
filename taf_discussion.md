@@ -77,6 +77,8 @@ The main benefits of running the SOFIA analysis in TAF are:
   online platform where data and analyses are organized, and invite selected
   research groups to conduct their analyses on this FAO online platform.
 
+<!--
+
 One approach would be to have a fishery officer who will oversee the *technical
 infrastructure*, *open data dissemination*, and *scientific collaboration*
 related to SOFIA.
@@ -84,3 +86,5 @@ related to SOFIA.
 This person would have a strong background in stock assessment, statistical
 computing, scientific workflow systems, project management, building
 partnerships, and coordinating large user groups.
+
+-->
