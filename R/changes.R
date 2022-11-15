@@ -1,8 +1,10 @@
 ## Utility function to browse historical changes in sraplus,
 ## in terms of package dependencies and files in the R directory
 
-changes <- function(sha, list=FALSE)
+changes <- function(sha, list=FALSE, dir="~/git/DanOvando/sraplus")
 {
+  odir <- setwd(dir); on.exit(setwd(odir))
+
   ## Switch repository to SHA commit
   cmd <- paste("git reset --hard", sha)
   system(cmd, ignore.stdout=TRUE)
@@ -45,7 +47,10 @@ changes <- function(sha, list=FALSE)
 ################################################################################
 
 ## tab <- readLines("../sraplus_history.md")
-## tab <- tab[16:77]
+## first <- grep("------- ", tab) + 1   # table header
+## empty <- which(tab == "")
+## last <- empty[empty > first][1] - 1  # first empty line after table header
+## tab <- tab[first:last]
 ## tab <- substring(tab, 1, 7)
 
 ## x <- sapply(tab, changes)
