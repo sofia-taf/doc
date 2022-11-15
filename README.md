@@ -14,7 +14,7 @@
 
 * [SOFIA package](https://github.com/sofia-taf/SOFIA)
 
-* [TAF package](https://ices-tools-prod/TAF) and additional
+* [TAF package](https://github.com/ices-tools-prod/TAF) and additional
   [documentation](https://github.com/ices-taf/doc)
 
 * [sraplus package](https://github.com/DanOvando/sraplus) and
