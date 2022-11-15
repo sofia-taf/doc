@@ -58,18 +58,10 @@ mechanics and features of TAF analyses, without the additional complexity of the
 
 ## Learn more
 
-https://github.com/ices-taf/doc has links to TAF documentation.
+The [sofia-taf/doc](https://github.com/sofia-taf/doc) page gives an overview of
+SOFIA-TAF.
 
-The [package help page](https://rdrr.io/cran/TAF/man/TAF-package.html) shows a
-complete list of R functions in the TAF package. At the bottom of the package
-help page there is also a list of references:
-
-- ICES Transparent Assessment Framework: https://taf.ices.dk.
-- To explore example TAF stock assessments, see the introductory
-  [video](https://www.youtube.com/watch?v=FweJbr9hfdY) and
-  [tutorial](https://github.com/ices-taf/doc/tree/master/tutorial-1/README.md).
-- The [TAF Wiki](https://github.com/ices-taf/doc/wiki) provides additional help
-  resources.
+https://github.com/ices-taf/doc gives an overview of TAF.
 
 In an R session, the package help page can be brought up with the command
 `?TAF`.
