@@ -10,17 +10,13 @@
 
 ## Presentations
 
-* Area 31
-  [overview](presentations/area_31/overview.pdf)
-  and
-  [demo](https://github.com/sofia-taf/doc/blob/main/presentations/area_31/demo.pdf)
+* Area 31 [overview](presentations/area_31/overview.pdf) and
+  [demo](presentations/area_31/demo.pdf)
 
-* Area 31
-  [overview](https://github.com/sofia-taf/doc/blob/main/presentations/area_31/overview.pdf)
-  and
-  [demo](https://github.com/sofia-taf/doc/blob/main/presentations/area_31/demo.pdf)
+* Area 31 [overview](presentations/area_31/overview.pdf) and
+  [demo](presentations/area_31/demo.pdf)
 
-* [CAPAM](https://github.com/sofia-taf/doc/blob/main/presentations/capam/open_reproducible.pdf)
+* [CAPAM](presentations/capam/open_reproducible.pdf)
 
 ## Technical level
 
