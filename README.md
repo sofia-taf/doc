@@ -10,13 +10,14 @@
 
 ## Presentations
 
-* Area 31 [overview](presentations/area_31/overview.pdf) and
-  [demo](presentations/area_31/demo.pdf)
+* Area 31 regional workshop: [overview](presentations/area_31/overview.pdf) and
+  [demo](presentations/area_31/demo.pdf) [2022 Nov]
 
-* Area 31 [overview](presentations/area_31/overview.pdf) and
-  [demo](presentations/area_31/demo.pdf)
+* Area 41 regional workshop: [overview](presentations/area_41/overview.pdf) and
+  [demo](presentations/area_41/demo.pdf) [2022 Nov]
 
-* [CAPAM](presentations/capam/open_reproducible.pdf)
+* SOFIA-TAF launch event at [CAPAM](presentations/capam/open_reproducible.pdf)
+  [2022 Oct]
 
 ## Technical level
 
