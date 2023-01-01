@@ -2,11 +2,25 @@
 
 ## Basic usage
 
-* [SOFIA-TAF design](https://arni-magnusson.github.io/pdf/2021-sofia-taf.pdf)
+* [SOFIA-TAF design](https://arni-magnusson.github.io/pdf/2022-sofia-taf.pdf)
 
 * [Area 37 demo](https://github.com/sofia-taf/2022Area37Demo)
 
 * [SOFIA-TAF tutorial](sofia_taf_tutorial.md)
+
+## Presentations
+
+* Area 31
+  [overview](presentations/area_31/overview.pdf)
+  and
+  [demo](https://github.com/sofia-taf/doc/blob/main/presentations/area_31/demo.pdf)
+
+* Area 31
+  [overview](https://github.com/sofia-taf/doc/blob/main/presentations/area_31/overview.pdf)
+  and
+  [demo](https://github.com/sofia-taf/doc/blob/main/presentations/area_31/demo.pdf)
+
+* [CAPAM](https://github.com/sofia-taf/doc/blob/main/presentations/capam/open_reproducible.pdf)
 
 ## Technical level
 
