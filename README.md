@@ -10,11 +10,8 @@
 
 ## Presentations
 
-* Area 31 regional workshop: [overview](presentations/area_31/overview.pdf) and
-  [demo](presentations/area_31/demo.pdf) [2022 Nov]
-
-* Area 41 regional workshop: [overview](presentations/area_41/overview.pdf) and
-  [demo](presentations/area_41/demo.pdf) [2022 Nov]
+* Regional [workshops](presentations) have dedicated folders with SOFIA-TAF
+  `overview.pdf` and `demo.pdf` presentations
 
 * SOFIA-TAF launch event at [CAPAM](presentations/capam/open_reproducible.pdf)
   [2022 Oct]
