@@ -132,8 +132,8 @@
     \item Open script and use {\darkblue Ctrl-Enter} to run line by line\\[2ex]
     \item Open script and select {\darkblue Source} button\\[2ex]
     \item In the console, run {\tt \textdarkblue{source}("data.R")}\\[2ex]
-    \item In the console, run {\tt \textdarkblue{sourceTAF}("data.R")}\\[2ex]
-    \item In the console, run {\tt \textdarkblue{sourceAll}()} to run all the
+    \item In the console, run {\tt \textdarkblue{source.taf}("data.R")}\\[2ex]
+    \item In the console, run {\tt \textdarkblue{source.all}()} to run all the
     scripts\\[2ex]
   \end{enumerate}
   \vspace{1ex}
@@ -185,6 +185,23 @@
     and model options that are different from {\tt\darkgreen priors.csv} and the
     default values
   \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{How are we doing?}
+  SOFIA-TAF collaboration (catch data, effort data, survey data, priors, model
+  settings) involves the use of four technical components:\\[4ex]
+  \begin{tabular}{lll}
+    \hline
+    \gray Component & \gray Expertise required & \gray Features\I{3ex}\\[1ex]
+    \hline
+    {\bf\blue R} & Some & Run scripts, modify scripts, objects\I{3ex}\\[1ex]
+    {\bf\blue GitHub} & Little & Clone repository\\[1ex]
+    {\bf\green TAF} & Some & Run TAF scripts, run boot procedure\\[1ex]
+    {\bf\green sraplus} & Some & Browse data/priors/results, set up input\\[1ex]
+    \hline
+  \end{tabular}
 \end{frame}
 
 % ______________________________________________________________________________
