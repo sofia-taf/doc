@@ -23,11 +23,11 @@ Open R in the `2022Area37Demo` directory and run:
 
 ```
 library(TAF)
-taf.bootstrap()
-sourceAll()
+taf.boot()
+source.all()
 ```
 
-The `sourceAll` function runs the TAF scripts sequentially in alphabetical
+The `source.all` function runs the TAF scripts sequentially in alphabetical
 order:
 
 ```
