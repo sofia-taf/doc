@@ -1,0 +1,241 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{fao}
+\begin{document}
+
+\begin{frame}
+  \title{SOFIA-TAF\\[1ex]
+    {\large\darkgreen Demo notes}}
+  \author{\vspace{-4ex}
+    Arni Magnusson}
+  \date{SOFIA-TAF workshop, Banjul\\[0.2ex]
+    17 May 2023}
+  \titlepage
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Overview}
+  \begin{itemize}
+    \item[] {\bf\darkblue Documentation}\\[0.1ex]
+    \comment{overview, r packages}\\[3ex]
+    \item[] {\bf\darkblue Clone Repositories}\\[0.1ex]
+    \comment{github, demos}\\[3ex]
+    \item[] {\bf\darkblue R Session}\\[0.1ex]
+    \comment{rstudio, clone, clean up, taf.bootstrap, run scripts}\\[3ex]
+    \item[] {\bf\darkblue Examine Repositories}\\[0.1ex]
+    \comment{data.bib, csv files, plots, tables, diff, custom drior}
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Documentation}
+  \textbf{\darkgreen Overview}\\[3ex]
+  \qquad
+  \begin{tabular}{ll}
+    SOFIA-TAF & \blue\href{https://github.com/sofia-taf/doc}%
+                {\tt github.com/sofia-taf/doc}\\[2ex]
+  \end{tabular}\\
+  \vspace{4ex}
+  \textbf{\darkgreen R packages}\\[3ex]
+  \qquad
+  \begin{tabular}{ll}
+    SOFIA     & \blue\href{https://github.com/sofia-taf/SOFIA}%
+                {\tt github.com/sofia-taf/SOFIA}\\[2ex]
+    TAF       & \blue\href{https://github.com/ices-taf/doc}%
+                {\tt github.com/ices-taf/doc}\\[2ex]
+    sraplus   & \blue\href{https://github.com/DanOvando/sraplus}%
+                {\tt github.com/DanOvando/sraplus}
+  \end{tabular}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Clone Repositories}
+  \textbf{\darkgreen GitHub}\\[0.5ex]
+  \begin{itemize}\blue
+    \item[] \href{https://github.com/sofia-taf}{github.com/sofia-taf}\\[1ex]
+    \item[] \href{https://github.com/sofia-taf/2023Area34GlobalEffortFishstatstocks}{2023Area34}\black
+    \item[] Code, HTTPS, Copy\\[1ex]
+  \end{itemize}
+  \vspace{3ex}
+  \textbf{\darkgreen Demos}\\[0.5ex]
+  \begin{itemize}\blue
+    \item[] \href{https://github.com/sofia-taf/WorkshopEffortShared}{Effort shared}\\[1ex]
+    \item[] \href{https://github.com/sofia-taf/WorkshopEffortByStock}{Effort by stock}\\[1ex]
+    \item[] \href{https://github.com/sofia-taf/WorkshopIndexByStock}{Index by stock}\\[1ex]
+    \item[] \href{https://github.com/sofia-taf/WorkshopPriorsByStock}{Priors by stock}
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{R Session}
+  \textbf{\darkgreen Three important lines}\\[0.3ex]
+  \begin{itemize}
+    \item[] \verb|library(TAF)|\\[1ex]
+    \item[] \verb|taf.bootstrap()|\\[1ex]
+    \item[] \verb|sourceAll()|\\[1ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{R Session}
+  \textbf{\darkgreen Start RStudio (VRE)}\\[0.3ex]
+  \begin{itemize}
+    \item[] {\blue\href{https://i-marine.d4science.org/}%
+      {i-marine.d4science.org}}\\[1ex]
+    \item[] SOFIA-TAF\\[1ex]
+    \item[] RStudio\\[1ex]
+  \end{itemize}
+  \vspace{4ex}
+  \textbf{\darkgreen Clone demo}\\[0.3ex]
+  \begin{itemize}
+    \item[] File - New Project\\[1ex]
+    \item[] Version Control - Git - Paste URL - Create in Home ($\sim$)\\[1ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{R Session}
+  \textbf{\darkgreen Clean up demo files}
+  \begin{itemize}
+    \item[] \verb|library(TAF)|\\[0.5ex]
+    \item[] \verb|clean()|\\[0.5ex]
+    \item[] \verb|clean("bootstrap", force=TRUE)|\\[1ex]
+  \end{itemize}
+  \vspace{2ex}
+  \textbf{\darkgreen Set up data and software}
+  \begin{itemize}
+    \item[] \verb|taf.bootstrap()|\\[1ex]
+  \end{itemize}
+  \vspace{2ex}
+  \textbf{\darkgreen Bootstrap procedure}\\[0.3ex]
+  \begin{itemize}
+    \item[] Copies CSV files from \verb|bootstrap/initial/data| to
+    \verb|bootstrap/data|\\[1.2ex]
+    \item[] Installs SOFIA 2.1.1 in local library\\[1ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{R Session}
+  \textbf{\darkgreen SOFIA Version and Local Library}\\[1.5ex]
+  If we declare SOFIA 2.1.1 in {\tt DATA.bib}, then\\[0.8ex]
+  \quad{\tt taf.bootstrap()}\\[0.8ex]
+  will {\darkgreen install} that inside {\tt bootstrap/library}, and\\[0.8ex]
+  \quad{\tt taf.library(SOFIA)}\\[0.8ex]
+  will {\darkgreen load} SOFIA 2.1.1 from {\tt bootstrap/library}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{R Session}
+  \textbf{\darkgreen Five ways to run R scripts}\\[1.5ex]
+  \begin{enumerate}
+    \item Open script and use {\darkblue Ctrl-Enter} to run line by line\\[2ex]
+    \item Open script and select {\darkblue Source} button\\[2ex]
+    \item In the console, run {\tt \textdarkblue{source}("data.R")}\\[2ex]
+    \item In the console, run {\tt \textdarkblue{source.taf}("data.R")}\\[2ex]
+    \item In the console, run {\tt \textdarkblue{source.all}()} to run all the
+    scripts\\[2ex]
+  \end{enumerate}
+  \vspace{1ex}
+  The {\tt\darkgreen data.R}, {\tt\darkgreen output.R}, and
+  {\tt\darkgreen report.R} scripts run very fast, but\\[0.2ex]
+  {\tt\orange model.R} takes longer to run (a few minutes per stock)
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{R Session}
+  \textbf{\darkgreen Three important lines}\\[0.3ex]
+  \begin{itemize}
+    \item[] \verb|library(TAF)|\\[1ex]
+    \item[] \verb|taf.bootstrap()|\\[1ex]
+    \item[] \verb|sourceAll()|\\[1ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Examine Repositories}
+  Can be done in {\darkgreen web browser}, {\darkgreen File Explorer}, or
+  {\darkgreen RStudio}\\[4ex]
+  {\bf\darkgreen Initial data}\\[1ex]
+  \begin{itemize}
+    \item[] Inside {\tt bootstrap}, open {\tt\darkgreen DATA.bib} to see a list
+    of all data used in the analysis\\[2ex]
+    \item[] Inside {\tt bootstrap/initial/data} we can examine the
+    {\darkgreen CSV data files}\\[2ex]
+  \end{itemize}
+  \vspace{3ex}
+  {\bf\darkgreen Results \& intermediate calculations}\\[1ex]
+  \begin{itemize}
+    \item[] {\darkgreen Plots} and {\darkgreen tables} are inside the
+    {\tt data}, {\tt output}, and {\tt report} folders\\[2ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{Examine Repositories}
+  \textbf{\darkgreen Differences between the demos}\\[0.6ex]
+  \begin{itemize}
+    \item[] The R scripts are almost identical between different analyses, so we
+    can use a\\
+    '{\darkgreen diff}' tool (such as {\darkgreen WinMerge}) to see the exact
+    differences between analyses\\[1.2ex]
+    \item[] {\tt {\darkgreen same.effort} = TRUE}$\,/\,${\tt FALSE}\\[0.6ex]
+    \item[] {\tt {\darkgreen same.priors} = TRUE}$\,/\,${\tt FALSE}\\[0.6ex]
+  \end{itemize}
+  \vspace{3ex}
+  \textbf{\darkgreen Custom drior function}\\[0.6ex]
+  \begin{itemize}
+    \item[] The {\tt 2022Area31DemoIndexByStock} analysis demonstrates the use
+    of a\\
+    {\darkgreen custom drior function}, instead of the default
+    {\tt\darkgreen addDriors} function\\[1.5ex]
+    \item[] This lets us use the \verb|format_driors| directly to specify priors
+    and model options that are different from {\tt\darkgreen priors.csv} and the
+    default values
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{How are we doing?}
+  SOFIA-TAF collaboration (catch data, effort data, survey data, priors, model
+  settings) involves the use of four technical components:\\[4ex]
+  \begin{tabular}{lll}
+    \hline
+    \gray Component & \gray Expertise required & \gray Features\I{3ex}\\[1ex]
+    \hline
+    {\bf\blue R} & Some & Run scripts, modify scripts,
+                          same.effort=FALSE\I{3ex}\\[1ex]
+    {\bf\blue GitHub} & Little & Clone repository\\[1ex]
+    {\bf\green TAF} & Some & Run TAF scripts, run boot procedure\\[1ex]
+    {\bf\green sraplus} & Some & Browse data/priors/results, set up input\\[1ex]
+    \hline
+  \end{tabular}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Overview}
+  \begin{itemize}
+    \item[] {\bf\darkblue Documentation}\\[0.1ex]
+    \comment{overview, r packages}\\[3ex]
+    \item[] {\bf\darkblue Clone Repositories}\\[0.1ex]
+    \comment{github, demos}\\[3ex]
+    \item[] {\bf\darkblue R Session}\\[0.1ex]
+    \comment{rstudio, clone, clean up, taf.bootstrap, run scripts}\\[3ex]
+    \item[] {\bf\darkblue Examine Repositories}\\[0.1ex]
+    \comment{data.bib, csv files, plots, tables, diff, custom drior}
+  \end{itemize}
+\end{frame}
+
+\end{document}
