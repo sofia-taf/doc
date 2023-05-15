@@ -5,6 +5,10 @@
 * [SOFIA-TAF design](https://arni-magnusson.github.io/pdf/2022-sofia-taf.pdf)
 * [SOFIA-TAF tutorial](sofia_taf_tutorial.md)
 
+## Virtual Research Environment
+
+* [VRE](https://i-marine.d4science.org/group/sofia-taf)
+
 ## Demo analyses
 
 *Workshop demos (lightweight for VRE tests)*
@@ -14,16 +18,16 @@
 * [Index by Stock](https://github.com/sofia-taf/WorkshopIndexByStock)
 * [Priors by Stock](https://github.com/sofia-taf/WorkshopPriorsByStock)
 
-*Other fully maintained demos*
+*Other fully maintained demos and analyses*
 
 * Area 31
   [Effort Shared](https://github.com/sofia-taf/2022Area31DemoEffortShared),
   [Effort by Stock](https://github.com/sofia-taf/2022Area31DemoEffortByStock),
   [Index by Stock](https://github.com/sofia-taf/2022Area31DemoIndexByStock)
-* Area 41
-  [Priors by Stock](https://github.com/sofia-taf/2022Area41DemoPriorsByStock)
+* Area 34 [GlobalEffortFishstatstocks](https://github.com/sofia-taf/2023Area34GlobalEffortFishstatstocks)
 * Area 37 [Demo](https://github.com/sofia-taf/2022Area37Demo)
-* Area 51 [Short Demo](https://github.com/sofia-taf/2023Area51ShortDemo)
+* Area 41 [Priors by Stock](https://github.com/sofia-taf/2022Area41DemoPriorsByStock)
+* Area 51 [Demo](https://github.com/sofia-taf/2023Area51ShortDemo)
 * Area 57 [Demo](https://github.com/sofia-taf/2023Area57Demo)
 
 ## Presentations
