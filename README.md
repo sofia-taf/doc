@@ -18,18 +18,6 @@
 * [Index by Stock](https://github.com/sofia-taf/WorkshopIndexByStock)
 * [Priors by Stock](https://github.com/sofia-taf/WorkshopPriorsByStock)
 
-*Other fully maintained demos and analyses*
-
-* Area 31
-  [Effort Shared](https://github.com/sofia-taf/2022Area31DemoEffortShared),
-  [Effort by Stock](https://github.com/sofia-taf/2022Area31DemoEffortByStock),
-  [Index by Stock](https://github.com/sofia-taf/2022Area31DemoIndexByStock)
-* Area 34 [GlobalEffortFishstatstocks](https://github.com/sofia-taf/2023Area34GlobalEffortFishstatstocks)
-* Area 37 [Demo](https://github.com/sofia-taf/2022Area37Demo)
-* Area 41 [Priors by Stock](https://github.com/sofia-taf/2022Area41DemoPriorsByStock)
-* Area 51 [Demo](https://github.com/sofia-taf/2023Area51ShortDemo)
-* Area 57 [Demo](https://github.com/sofia-taf/2023Area57Demo)
-
 ## Presentations
 
 * Regional [workshops](presentations) have dedicated folders with SOFIA-TAF
