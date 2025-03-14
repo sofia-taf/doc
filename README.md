@@ -36,4 +36,4 @@
   [documentation](https://github.com/ices-taf/doc)
 
 * [sraplus package](https://github.com/DanOvando/sraplus) and
-  [dependencies](sraplus_dependencies.md)
+  [dependencies](https://sofia-taf-dev/sraplus-deps)

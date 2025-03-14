@@ -12,8 +12,8 @@ install_github("sofia-taf/SOFIA")
 ```
 
 The [sraplus](https://github.com/DanOvando/sraplus) package has many underlying
-package [dependencies](README_dependencies.md) that should install
-automatically.
+package [dependencies](https://github.com/sofia-taf-dev/sraplus-deps) that
+should install automatically.
 
 Then clone/download a SOFIA analysis, for example:
 
